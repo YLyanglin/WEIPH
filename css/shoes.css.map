@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,KAAK,EAAC,IAAI;EACV,QAAG;IACF,KAAK,EAAC,IAAI",
+"sources": ["shoes.scss"],
+"names": [],
+"file": "shoes.css"
+}

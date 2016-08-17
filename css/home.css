@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: -webkit-border-box; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.mask-dl {
+  margin: 0 5px; }
+  .mask-dl dt {
+    text-align: center; }
+    .mask-dl dt img {
+      width: 68px; }
+  .mask-dl dd {
+    text-align: center;
+    color: #000; }
+    .mask-dl dd h3 {
+      font-size: 14px;
+      line-height: 30px; }
+    .mask-dl dd p {
+      line-height: 26px;
+      color: #9D546F; }
+      .mask-dl dd p span {
+        margin-left: 10px;
+        color: #BBBBBB; }
+
+/*# sourceMappingURL=home.css.map */

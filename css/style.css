@@ -1,0 +1,73 @@
+.logo {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 30%;
+  text-align: center; }
+
+.pin {
+  font-size: 47px;
+  color: #E1027F;
+  line-height: 60px; }
+
+.one {
+  color: #4D4D4D;
+  font-size: 14px;
+  line-height: 22px; }
+
+.rush {
+  margin-top: 10%;
+  width: 80%;
+  margin: 10%; }
+
+.goods {
+  font-size: 26px;
+  border-top: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+  color: #000;
+  line-height: 50px; }
+
+.go {
+  width: 80%;
+  -webkit-animation-delay: 1s; }
+  .go a {
+    margin: 0 40%;
+    width: 100px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    background: #E1027F;
+    color: #fff;
+    border: none;
+    border-radius: 4px; }
+
+.high {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .high img {
+    width: 98px; }
+
+.watch {
+  position: absolute;
+  bottom: 10%;
+  right: 0; }
+  .watch img {
+    width: 77px; }
+
+.bag {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .bag img {
+    width: 232px; }
+
+.ring {
+  position: absolute;
+  bottom: 5%;
+  right: 30%; }
+  .ring img {
+    width: 30px; }
+
+/*# sourceMappingURL=style.css.map */

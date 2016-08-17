@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/left.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+	<style>
+	.swiper-container {
+		   width: 100%;
+		} 
+	
+		img{
+			width: 100%;
+		}
+		.o3{
+			position:relative;
+		}
+		.o3 a{
+				width:100px;
+				height:40px;
+				border:1px solid yellow;
+				font-size:20px;
+				display:block;
+				line-height:40px;
+				text-align:center;
+				background:blue;
+				color:#fff;
+				position:absolute;
+				bottom:50px;
+				left:50%;
+				margin-left:-50px;
+		} 
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="head">
+			<a href="home.html"></a>
+			<h2>女装</h2>
+		</div>
+		<div class="big">
+		<div class="main">
+			<!-- 图片轮播 -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			          <div class="swiper-slide o1"><img src="img/20.jpg" alt=""></div>
+			          <div class="swiper-slide o2"><img src="img/19.jpg" alt=""></div>
+			          <div class="swiper-slide o3"><img src="img/21.jpg" alt=""></div>
+			     <!--   <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容</p>-->
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>	
+			<!-- 选择国家 -->
+			<div class="contry">
+				<dl>
+					<dt><img src="img/22.jpg" alt=""></dt>
+					<dd>韩国</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/23.jpg" alt=""></dt>
+					<dd>日本</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/24.jpg" alt=""></dt>
+					<dd>欧洲</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/25.jpg" alt=""></dt>
+					<dd>澳洲</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/26.jpg" alt=""></dt>
+					<dd>分类</dd>
+				</dl>
+			</div>
+			<div class="day">
+				<span>特别策划.美国日</span>
+			</div>
+			<div class="gril">
+				<img src="img/27.jpg" alt="">
+			</div>
+			<div class="top">
+				<div class="hot">
+					<img src="img/28.jpg" alt="">
+					<div class="txt">
+						<p>纽约热销</p>
+						<h2>TOP榜</h2>
+					</div>
+				</div>
+				<div class="hot">
+					<img src="img/29.jpg" alt="">
+					<div class="txt">
+						<p>最高</p>
+						<h2>满188减20</h2>
+					</div>
+				</div>
+				<div class="hot">
+					<img src="img/30.gif" alt="">
+					<div class="txt">
+						<p>上东区</p>
+						<h2>辣妈必BUY</h2>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="every">
+				<span>全球尖货.免邮到底</span>
+			</div>
+			<div class="search">
+				<div class="hot1">
+					<img src="img/31.jpg" alt="">
+					<div class="txt1">
+						<h2>热销榜单</h2>
+						<p>全场12元起</p>
+						
+					</div>
+				</div>
+				<div class="hot1">
+					<img src="img/32.jpg" alt="">
+					<div class="txt1">
+						<h2>全球星探</h2>
+						<p>宝宝安抚神奇</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="new">
+				<p>新特卖.每天早10晚8点上新</p>
+			</div>
+			<div class="rush">
+				<dl>
+					<dt><img src="img/33.jpg" alt=""></dt>
+					<dd><p><b>1.1折起</b>依恋集团品牌盛典<span>剩14时</span></p></dd>
+				</dl>
+			</div>
+			<div class="rush">
+				<dl>
+					<dt><img src="img/34.jpg" alt=""></dt>
+					<dd><p><b>0.7折起</b>艾欧威女装移动端专场<span>剩4天</span></p></dd>
+				</dl>
+			</div>
+			<div class="rush">
+				<dl>
+					<dt><img src="img/17.jpg" alt=""></dt>
+					<dd><p><b>1.3折起</b>夏季潮牌集合专场<span>剩2天</span></p></dd>
+				</dl>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<script src="js/zepto.min.js"></script>
+	<script src="js/iscroll5.js"></script>
+	<script src="js/show.js"></script>
+	<script src="js/swiper-3.3.1.min.js"></script>	
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal', //horizontal 水平  vertical 垂直
+	   	//自动播的时间设置
+	   	autoplay: 1000,
+		// 如果需要分页器
+	    pagination: '.swiper-pagination',
+	   //手指离开后  继续自动播
+	   	autoplayDisableOnInteraction : false
+
+	  })     
+   
+	  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:-webkit-border-box;
+}
+html,body,.container{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.container{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+.mask-dl{
+	margin:0 5px;
+	dt{
+		text-align:center;
+		img{
+			width:68px;
+		}
+	}
+	dd{
+		text-align:center;
+		color:#000;
+		h3{
+			font-size:14px;
+			line-height:30px;
+		}
+		p{
+			line-height:26px;
+			color:#9D546F;
+			span{
+				margin-left:10px;
+				color:#BBBBBB;
+			}
+		}
+	}
+}
